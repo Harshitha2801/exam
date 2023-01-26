@@ -6,4 +6,5 @@ function Footer() {
         <p>Report Issue</p>
     </div>)
 }
+
 export default Footer
