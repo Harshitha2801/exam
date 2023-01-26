@@ -1,0 +1,47 @@
+.main-container {
+    margin: 100px 50px;
+    margin-top: 90px;
+}
+
+.button1 {
+    padding: 8px 100px;
+    margin: 30px;
+    background: #CC0000;
+    border: #f6f6f6;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+    position:relative;
+}
+
+
+@media screen and (max-width:550px) {
+    .main-container {
+        margin: 0px 20px;
+        margin-top: -110px;
+    }
+
+    .button1 {
+        padding: 9px 70px;
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .main-container {
+        margin: 0px 20px;
+        margin-top: -70px;
+    }
+
+    .button1 {
+        padding: 8px 60px;
+        margin: 20px;
+        font-size: 15px;
+    }
+
+}
+
